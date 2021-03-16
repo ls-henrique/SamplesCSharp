@@ -45,6 +45,15 @@ namespace SampleCSharp.Overview
 
             this.dataGridView1.DataSource = null;
             this.dataGridView1.DataSource = this.Usuarios;
+            Clear();
+        }
+
+        private void Clear()
+        {
+            this.textBoxId.Clear();
+            this.textBoxNome.Clear();
+            this.comboBoxGenero.SelectedIndex = -1;
+            this.numericUpDownIdade.Value = 0;
         }
     }
 }

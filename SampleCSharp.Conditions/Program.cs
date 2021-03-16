@@ -21,6 +21,8 @@ namespace SampleCSharp.Conditions
             TernaryOperator(age);
 
             SwitchCondition(color);
+
+            SwitchExpression(color);
         }
 
         static void IfElseCondition(int age)
@@ -101,5 +103,21 @@ namespace SampleCSharp.Conditions
             Console.WriteLine();
         }
 
+        static void SwitchExpression(string color)
+        {
+            Console.WriteLine("************SwitchCondition************");
+
+            var message = color switch
+            {
+                "amarelo" => "Sua cor preferida é amarelo",
+                "vermelho" => "Sua cor preferida é vermelho",
+                "azul" => "Sua cor preferida é azul",
+                "verde" => "Sua cor preferida é verde",
+                _ => "QUE GOSTO ESTRAAAAANHO!!"
+            };
+
+            Console.WriteLine(message);
+            Console.WriteLine();
+        }
     }
 }

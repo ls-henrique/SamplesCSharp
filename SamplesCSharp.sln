@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.Api", "SampleC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Windows Forms", "07 - Windows Forms", "{E6C9068A-F06E-4D60-859F-47B966753336}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.Overview", "SampleCSharp.Overview\SampleCSharp.Overview.csproj", "{09E683F0-A753-4C96-AE47-8EC0D3E4A05F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.WindowsForms.Overview", "SampleCSharp.WindowsForms.Overview\SampleCSharp.WindowsForms.Overview.csproj", "{09E683F0-A753-4C96-AE47-8EC0D3E4A05F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Exercices", "06 - Exercices", "{7F37AA2D-0DA0-4C43-A825-E8C0D2574ED5}"
 EndProject
@@ -45,7 +45,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.Interface.Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.Interfaces", "SampleCSharp.Interfaces\SampleCSharp.Interfaces.csproj", "{25B3BC80-0C43-48F3-B392-64BBAF538565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleCSharp.Interface.Applications", "SampleCSharp.Interface.Applications\SampleCSharp.Interface.Applications.csproj", "{1F9BE386-544E-493F-9C04-8FCC2CF3DE88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleCSharp.Interface.Applications", "SampleCSharp.Interface.Applications\SampleCSharp.Interface.Applications.csproj", "{1F9BE386-544E-493F-9C04-8FCC2CF3DE88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
